@@ -1,6 +1,7 @@
 :root {
     --background-header: #0071A7;
     --white-color: #fff;
+    --text-color: #727475;
 }
 
 * {
@@ -12,4 +13,13 @@ html {
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+}
+
+.btn {
+    width: 139px;
+    background-color: #14B9D5;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 30px;
 }
