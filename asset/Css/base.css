@@ -1,0 +1,49 @@
+:root {
+    --background-header: #0071A7;
+    --white-color: #fff;
+    --text-color: #727475;
+    --hot-color:#F76570;
+    --best-color:#14B9D5;
+    --new-color: #1BBC9B;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 139px;
+    background-color: #14B9D5;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 30px;
+}
+
+.hot__label {
+    background-color: var(--hot-color);
+}
+
+.best__label {
+    background-color: var(--best-color);
+}
+
+.new__label {
+    background-color: var(--new-color);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
