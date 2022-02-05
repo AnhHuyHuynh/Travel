@@ -1,9 +1,11 @@
+/* header */
 #header {
     background-color: var(--background-header);
     width: 100%;
     height: 39px;
 }
 
+/* header title */
 .header__title {
     display: flex;
     align-items: center;
@@ -64,6 +66,7 @@
     margin-right: 10px;
 }
 
+/* header navbar */
 .header__navbar {
     display: flex;
     align-items: center;
@@ -146,6 +149,7 @@
     animation: fadeIn ease-in 0.2s;
 }
 
+/* header subnav */
 .header-subnav__option {
     position: absolute;
     top: 0;
@@ -183,7 +187,7 @@
     background-color: #F9F9F9;
 }
 
-
+/* header navbar */
 .header-navbar-option-item__label {
     color: var(--white-color);
     margin-left: 35px;
@@ -208,6 +212,7 @@
     letter-spacing: 2px;
 }
 
+/* Slider */
 #slider {
     position: relative;
     margin-top: 80px;
