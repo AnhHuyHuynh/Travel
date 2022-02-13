@@ -65,11 +65,6 @@ html {
     margin-right: -15px;
 }
 
-.grid__row::after {
-    content: "";
-    display: table;
-}
-
 .grid__column-2 {
     padding-left: 15px;
     padding-right: 15px;
@@ -107,7 +102,6 @@ html {
 .while-color {
     color: var(--white-color) !important;
 }
-
 
 .header-container__common {
     margin-top: 40px;
@@ -196,6 +190,7 @@ html {
     color: var(--white-color);
     height: 43px;
     line-height: 43px;
+    background-color: #14B9D5;
 }
 
 @keyframes fadeIn {

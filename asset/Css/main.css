@@ -350,10 +350,6 @@
     font-weight: 500;
 }
 
-.list-place-context__right {
-    flex: 1;
-}
-
 .list-place-content:hover .list-place-content--hover { 
     display: block;
 }
