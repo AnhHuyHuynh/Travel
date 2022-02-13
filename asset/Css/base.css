@@ -95,8 +95,16 @@ html {
     width: 25%;
 }
 
+.pl-33 {
+    padding-left: 33px;
+}
+
 .bg-white {
     background-color: var(--white-color);
+}
+
+.bg--premium {
+    background-color: #14B9D5;
 }
 
 .while-color {
@@ -104,8 +112,7 @@ html {
 }
 
 .header-container__common {
-    margin-top: 40px;
-    padding-top: 60px;
+    padding-top: 50px;
     text-align: center;
     letter-spacing: 2px;
 }
