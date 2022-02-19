@@ -19,7 +19,7 @@ html {
 }
 
 .btn {
-    display: block;
+    display: inline-block;
     width: 139px;
     height: 33px;
     text-align: center;
@@ -83,6 +83,12 @@ html {
     width: 66.66666667%;
 }
 
+.grid__column-8-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 16.66666667%;
+}
+
 .grid__column-3 {
     padding-left: 15px;
     padding-right: 15px;
@@ -94,6 +100,19 @@ html {
     padding-right: 15px;
     width: 25%;
 }
+
+.grid__column-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+}
+
+.grid__column-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
 
 .pl-33 {
     padding-left: 33px;
@@ -198,6 +217,18 @@ html {
     height: 43px;
     line-height: 43px;
     background-color: #14B9D5;
+} 
+
+.form-control-input {
+    padding-left: 20px;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #F9F9F9;
+    color: #A3A3A6;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    font-size: 1.4rem;
 }
 
 @keyframes fadeIn {

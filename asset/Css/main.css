@@ -728,6 +728,130 @@
 
 /* Footer */
 #footer {
-    background-color: red;
-    min-height: 200px;
+    display: flex;
+    background: url('/asset/Images/footer.jpg') center / cover no-repeat;
+    height: 631px;
+}
+
+.footer__form {
+    display: flex;
+    margin-left: 200px;
+}
+
+.footer-headding__content {
+    padding-top: 7%;
+    margin-right: 131px;
+}
+
+.footer-headding-text {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.footer-subheadding-text {
+    margin-top: 31px;
+    color: var(--white-color);
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.headding-footer__form-search {
+    padding-top: 11%;
+}
+
+.headding-footer__btn {
+    margin-left: 20px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--best-color);
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.footer-form__list {
+    margin-top: 18px;
+    background-color: var(--white-color);
+    height: 333px;
+}
+
+.footer-content {
+    padding: 45px 40px 45px 45px;
+}
+
+.footer-content__img {
+    width: 150px;
+}
+
+.footer-content__text {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #A4ADB4;
+    font-weight: 400;
+}
+
+.footer-context-category__img {
+    width: 10px;
+    margin-right: 5px;
+}
+
+.footer-context__link {
+    text-decoration: none;
+    color: #555555;
+}
+
+.footer-context__icon {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    color: #555555;
+}
+
+.footer-content-headding__name {
+    color: #555555;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.footer-context__list-category {
+    padding-top: 30px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.footer-context-category__item {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: #9A9A9A;
+    letter-spacing: 2px;
+}
+
+.footer-context__footer {
+    display: flex;
+    height: 59px;
+    background-color: #14B9D5;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-context__theme {
+    margin-left: 20px;
+    color: var(--white-color);
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.footer-context__copyright {
+    margin-right: 20px;
+    color: var(--white-color);
+    letter-spacing: 2px;
+    font-size: 1.2rem;
 }
