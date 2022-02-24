@@ -386,6 +386,7 @@ html {
 #footer {
     display: flex;
     background: url('/asset/Images/footer.jpg') center / cover no-repeat;
+    margin-top: 110px;
     height: 631px;
 }
 

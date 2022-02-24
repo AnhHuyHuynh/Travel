@@ -23,7 +23,6 @@
 
 /* list shop item */
 .list__shop {
-    margin-bottom: 110px;
     animation: fadeIn ease-out 0.5s;
 }
 
