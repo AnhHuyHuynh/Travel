@@ -77,6 +77,12 @@ html {
     width: 33.33333333%;
 }
 
+.grid__column-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+}
+
 .grid__column-8-2 {
     padding-left: 15px;
     padding-right: 15px;
@@ -101,12 +107,6 @@ html {
     width: 25%;
 }
 
-.grid__column-8 {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 50%;
-}
-
 .grid__column-12 {
     padding-left: 15px;
     padding-right: 15px;
@@ -119,11 +119,15 @@ html {
 }
 
 .bg-white {
-    background-color: var(--white-color);
+    background-color: var(--white-color)!important;
+}
+
+.bg-header {
+    background-color: var(--background-header) !important;
 }
 
 .bg--premium {
-    background-color: #14B9D5;
+    background-color: #14B9D5 !important;
 }
 
 .while-color {
