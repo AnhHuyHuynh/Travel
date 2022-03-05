@@ -1,0 +1,254 @@
+#slider {
+    position: relative;
+    background: url("/asset/Images/hoankiemlake2.jpg") center / cover no-repeat;
+    height: 310px;
+}
+
+.slider__container {
+    position: absolute;
+    left: 11%;
+    bottom: 40px;
+}
+
+.slider-context {
+    color: var(--white-color);
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+/* detail item */
+.detai__item {
+    margin-top: 55px;
+}
+
+.detail-item-left__img {
+    width: 100%;
+    height: 602px;
+    display: block;
+}
+
+.list__detail {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-detail-item {
+    margin: 3px 4px 0px 4px;
+}
+
+.list-detail-item__img {
+    width: 100%;
+    height: 120px;
+    transition: all linear 0.5s;
+}
+
+.list-detail-item__img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.list__detail {
+    display: flex;
+}
+
+/* Detail item */
+.detai-item__right {
+    padding-left: 30px;
+}
+
+.detai-item__name {
+    margin: 0;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+    color: #555555;
+    font-weight: 600px;
+}
+
+.detai-item__star {
+    margin: 32px 0px;
+}
+
+.detai-item-star__icon  {
+    color: #A3A3A3;
+    font-size: 1.2rem;
+}
+
+.detai-item__price-from {
+    color: #A3A3A3;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.detai-item__price-from__value {
+    margin-right: 6px;
+}
+
+.detai-item__content {
+    margin: 30px 0px;
+    font-size: 1.5rem;
+    color: #A3A3A3;
+    line-height: 26px;
+}
+
+.detai-item__number-people {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detai-item__number-people__label {
+    flex: 1;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.detai-item__number-people__select {
+    flex: 3;
+}
+
+.detai-item__number-people__btn {
+    margin-top: 4px;
+    width: 60px;
+    height: 34px;
+    border-radius: 0px;
+    background-color: var(--background-header);
+    color: var(--white-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.detai-item__price {
+    font-size: 3rem;
+    color: #A3A3A3;
+    font-weight: 400;
+}
+
+.detai-item__count {
+    background-color: #F9F9F9;
+    outline: none;
+    max-width: 88px;
+    height: 34px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    font-size: 1.4rem;
+    color: #A3A3A3;
+}
+
+.detai-item__btn-add {
+    background-color: #14B9D5;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.detai-item__tag-product {
+    margin-top: 40px;
+}
+
+.detai-item__tag-product__wrap {
+    margin-top: 10px;
+}
+
+.detai-item__label {
+    font-size: 1.4rem;
+}
+
+.detai-item-label__btn {
+    min-width: 90px;
+    margin-left: 5px;
+    font-size: 1.4rem;
+    border: 1px solid #f1f1f1;
+    border-radius: 0px;
+    color: #A3A3A3;
+    letter-spacing: 2px;
+}
+
+/* Related Product */
+.related-product__headding {
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+    color: #555555;
+    font-weight: 400;
+}
+
+.related__product::before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid #F1F1F1;
+    width: 28px;
+    margin-left: 15px;
+}
+
+.related-product__item {
+    position: relative;
+    margin-top: 30px;
+    display: block;
+    text-decoration: none;
+    color: transparent;
+}
+
+.related-product__label {
+    z-index: 1;
+    padding: 6px 6px;
+    position: absolute;
+    top: 15px;
+    right: 28px;
+    background-color: #14B9D5;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.related-product-label__text {
+    margin: 0px;
+    color: var(--white-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ 
+.related-product__img {
+    width: 100%;
+    height: 250px;
+    padding: 4px;
+    display: block;
+}
+
+.related-product-name {
+    font-size: 2.2rem;
+    color: #555555;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.related-product__price_old {
+    font-size: 1.6rem;
+    color: #9A9A9A;
+    opacity: 0.5;
+}
+
+.related-product__price-current {
+    font-size: 1.6rem;
+    color: #9A9A9A;
+    margin-left: 3px;
+}
+
+.related-product__price-btn {
+    margin-top: 20px;
+    border-radius: 0px;
+    border: 1px solid #F1F1F1;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #9A9A9A;
+}
+
+.related-product__price-from {
+    font-size: 1.6rem;
+    color: #9A9A9A;
+    letter-spacing: 2px;
+}
