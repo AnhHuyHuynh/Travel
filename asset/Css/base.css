@@ -1,3 +1,4 @@
+/* Base */
 :root {
     --background-header: #0071A7;
     --white-color: #fff;
@@ -164,6 +165,21 @@ html {
     background-color: #14b9d5;
     z-index: -1;
 }
+
+::placeholder {
+    color: #A8A4A3;
+    opacity: 1; /* Firefox */
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #A8A4A3;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #A8A4A3;
+}
+
+/* Main */
 
 /* header */
 #header {
@@ -550,9 +566,6 @@ html {
     background-color: #F9F9F9;
     border: 1px solid #f1f1f1;
     outline: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    text-indent: 1px;
     color: #A3A3A6;
     margin-right: 15px;
     margin-bottom: 20px;
@@ -691,6 +704,7 @@ html {
 
 .td__footer {
     padding-left: 20px;
+    border-bottom: 1px solid #F1F1F1;
 }
 
 .table__input {
