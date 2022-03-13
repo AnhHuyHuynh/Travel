@@ -11,15 +11,28 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: 861px;
-    top: 75px;
+    left: calc(100% - 664px);
+    top: calc(100% - 95%);
     min-height: 600px;
     min-width: 600px;
-    max-height: 600px;
-    max-width: 600px;
     background-color: rgba(88, 34, 88, 0.34);
     border-radius: 100%;
     user-select: none;
+    animation: fadeIn ease 0.5s;
+}
+
+.slider__circle-two {
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: calc(100% - 195px);
+    top: calc(100% - 95%);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
     animation: fadeIn ease 0.5s;
 }
 
@@ -57,21 +70,6 @@
 .slider__button:hover {
     background-color: var(--white-color);
     color: rgba(98, 83, 101, 0.65);
-}
-
-.slider__circle-two {
-    background-color: var(--white-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 1345px;
-    top: 70px;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    animation: fadeIn ease 0.5s;
 }
 
 .slider-circle-content {
