@@ -192,6 +192,12 @@
     display: block;
     text-decoration: none;
     color: transparent;
+    transition: opacity linear 0.5s; 
+}
+
+.related-product__item:hover {
+    opacity: 0.6;
+    cursor: pointer;
 }
 
 .related-product__label {
